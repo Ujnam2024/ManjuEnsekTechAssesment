@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 # ManjuEnsekTechAssesment 
 
 This README file offers comprehensive details about the testing process I conducted for the assessment.
 
 **Automation Testing**
+=======
+# ManjuEnsekTechAssesment - Automation Testing
+Manju Automation work submission for Ensek Tech Assessment.
+>>>>>>> f18db83 (Manju Tech Assessment)
 
 Git Repository : (https://github.com/Ujnam2024/ManjuEnsekTechAssesment)
 
 Programming Language: C# | Testing Framework: xUnit | Web Driver: Selenium WebDriver with ChromeDriver | IDE: Visual Studio Code
 
+<<<<<<< HEAD
 Automation Test Execution File to Refer: UnitTest1.cs
+=======
+Date: Sep 29,2024
+
+Automation Test File: UnitTest1.cs
+>>>>>>> f18db83 (Manju Tech Assessment)
 
 Automation testing Approach:
 
@@ -37,7 +48,11 @@ Logging and Reporting
   
   All test activities and results are written to a log file for review.
 
+<<<<<<< HEAD
 **Manual testing**
+=======
+# ManjuEnsekTechAssesment - Manual testing
+>>>>>>> f18db83 (Manju Tech Assessment)
 
 1.**Test Approach Document for Ensek Test Website - Manju.doc**
     This document provides the complete test approach for the tech assignment.
@@ -54,6 +69,7 @@ Logging and Reporting
 3. **Error - Screenshots**
     This folder contains all the erors identified while performing the manual testing. 
   
+<<<<<<< HEAD
 # Energy API Tests - RESTAPITestSwaggerDoc
 
 Base URL:
@@ -100,3 +116,5 @@ Total Tests Run: 7
   Failed: 2
   Errors: 1
   Skipped: 0
+=======
+>>>>>>> f18db83 (Manju Tech Assessment)
