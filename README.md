@@ -1,11 +1,17 @@
 # ManjuEnsekTechAssesment
 Manju Automation work submission for Ensek Tech Assessment.
 
+Git Repository : https://github.com/Ujnam2024/ManjuEnsekTechAssesment/edit/main
 Programming Language: C#
-Testing Framework: xUnit
-Web Driver: Selenium WebDriver with ChromeDriver
-IDE: Visual Studio / Visual Studio Code
 
+Testing Framework: xUnit
+
+Web Driver: Selenium WebDriver with ChromeDriver
+
+IDE: Visual Studio Code
+Date: Sep 29,2024
+
+Automation Test File: UnitTest1.cs
 Automation testing Approach:
 1. Test Case 1: Test_Website_Title: Checks the title of the home page.
 
