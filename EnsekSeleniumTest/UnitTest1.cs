@@ -53,12 +53,12 @@ namespace EnsekSeleniumTest
             {
                 LogError($"Error: Expected title '{expectedTitle}' but found '{actualTitle}'");
                 TakeScreenshot(screenshotPath);
-                failedTests++; // Increment failed tests
-                throw new Exception("Title verification failed", ex); // Fail the test if title is incorrect
+                failedTests++; 
+                throw new Exception("Title verification failed", ex); 
             }
             finally
             {
-                LogSummary(); // Log a summary of the test results for this test
+                LogSummary(); 
             }
         }
 
@@ -89,7 +89,7 @@ namespace EnsekSeleniumTest
                     }
                     catch (NoSuchElementException)
                     {
-                        return false; // If the element is not found yet
+                        return false; 
                     }
                 });
 
@@ -101,7 +101,7 @@ namespace EnsekSeleniumTest
                 // Log success in XUnit
                 Assert.True(findOutMoreButton.Displayed, "Find out more button should be displayed.");
                 LogMessage("Navigation to About page completed successfully.");
-                passedTests++; // Increment passed tests
+                passedTests++; 
             }
             catch (StaleElementReferenceException ex)
             {
@@ -113,13 +113,13 @@ namespace EnsekSeleniumTest
             catch (Exception ex)
             {
                 LogError($"Test failed during navigation or button click: {ex.Message}");
-                TakeScreenshot(screenshotPath); // Capture a screenshot on failure
-                failedTests++; // Increment failed tests
+                TakeScreenshot(screenshotPath); 
+                failedTests++; 
                 throw; 
             }
             finally
             {
-                LogSummary(); // Log a summary of the test results for this test
+                LogSummary(); 
             }
         }
 
@@ -144,8 +144,7 @@ namespace EnsekSeleniumTest
 
                 // Capture screenshot
                 Screenshot screenshot = ((ITakesScreenshot)driver).GetScreenshot();
-                screenshot.SaveAsFile(filePath);  // No need to specify ScreenshotImageFormat
-
+                screenshot.SaveAsFile(filePath); 
                 LogMessage($"Screenshot captured: {filePath}");
             }
             catch (Exception ex)
@@ -159,7 +158,7 @@ namespace EnsekSeleniumTest
         {
             string logEntry = $"{DateTime.Now}: {message}";
             logFile.WriteLine(logEntry);
-            Console.WriteLine(logEntry); // Print to console for real-time feedback
+            Console.WriteLine(logEntry); 
         }
 
         // Helper method to log errors
@@ -167,7 +166,7 @@ namespace EnsekSeleniumTest
         {
             string logEntry = $"{DateTime.Now} - ERROR: {errorMessage}";
             logFile.WriteLine(logEntry);
-            Console.WriteLine(logEntry); // Print to console for real-time feedback
+            Console.WriteLine(logEntry); 
         }
 
         // Helper method to log a summary of the test results
@@ -175,7 +174,7 @@ namespace EnsekSeleniumTest
         {
             string summary = $"{DateTime.Now} - Test Summary: Total Tests: {totalTests}, Passed: {passedTests}, Failed: {failedTests}";
             logFile.WriteLine(summary);
-            Console.WriteLine(summary); // Print to console for real-time feedback
+            Console.WriteLine(summary); 
         }
 
         public void Dispose()
