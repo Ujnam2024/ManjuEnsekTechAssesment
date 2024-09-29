@@ -1,0 +1,20 @@
+9/29/2024 2:14:13 PM: Navigated to the home page.
+9/29/2024 2:14:13 PM: Navigated to the About page.
+9/29/2024 2:14:14 PM: Clicked 'Find out more about us »' button. User successfully redirected.
+9/29/2024 2:14:14 PM - ERROR: Stale element reference encountered. Retrying to find the element...
+9/29/2024 2:14:15 PM: Screenshot captured: /Users/Manju/Documents/EnsekSeleniumScreenshots/ErrorScreenshot_About.png
+9/29/2024 2:14:15 PM - Test Summary: Total Tests: 1, Passed: 0, Failed: 1
+9/29/2024 2:14:17 PM: Navigated to the home page.
+9/29/2024 2:14:17 PM: Page title: ENSEK Energy Corp. - Candidate Test
+9/29/2024 2:14:17 PM: Title matches.
+9/29/2024 2:14:17 PM - Test Summary: Total Tests: 1, Passed: 1, Failed: 0
+9/29/2024 3:00:38 PM: Navigated to the home page.
+9/29/2024 3:00:38 PM: Navigated to the About page.
+9/29/2024 3:00:40 PM: Clicked 'Find out more about us »' button. User successfully redirected.
+9/29/2024 3:00:40 PM - ERROR: Stale element reference encountered. Retrying to find the element...
+9/29/2024 3:00:41 PM: Screenshot captured: /Users/Manju/Documents/EnsekSeleniumScreenshots/ErrorScreenshot_About.png
+9/29/2024 3:00:41 PM - Test Summary: Total Tests: 1, Passed: 0, Failed: 1
+9/29/2024 3:00:43 PM: Navigated to the home page.
+9/29/2024 3:00:43 PM: Page title: ENSEK Energy Corp. - Candidate Test
+9/29/2024 3:00:43 PM: Title matches.
+9/29/2024 3:00:43 PM - Test Summary: Total Tests: 1, Passed: 1, Failed: 0

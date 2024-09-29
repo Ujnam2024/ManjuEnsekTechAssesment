@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="820941e6-b4de-478f-8ce1-8de3be25df8a" name="@Sivas-MacBook-Air 2024-09-29 15:00:41" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-09-29T15:00:41.1470620+01:00" queuing="2024-09-29T15:00:41.1470620+01:00" start="2024-09-29T15:00:31.8769840+01:00" finish="2024-09-29T15:00:43.8899380+01:00" />
+  <TestSettings name="default" id="dcad4600-4368-4feb-aceb-a78f65f6b595">
+    <Deployment runDeploymentRoot="_Sivas-MacBook-Air_2024-09-29_15_00_41" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6a7d05dc-f3b4-4e86-89ca-123d8257a77d" testId="e14486e1-c068-575a-3165-7e41a7f439bb" testName="EnsekSeleniumTest.UnitTest1.Test_Navigate_To_About_Page" computerName="Sivas-MacBook-Air" duration="00:00:08.9404947" startTime="2024-09-29T15:00:41.1167510+01:00" endTime="2024-09-29T15:00:41.1167620+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a7d05dc-f3b4-4e86-89ca-123d8257a77d">
+      <Output>
+        <ErrorInfo>
+          <Message>System.Exception : StaleElementReferenceException occurred
+---- OpenQA.Selenium.StaleElementReferenceException : stale element reference: stale element not found
+  (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception</Message>
+          <StackTrace>   at EnsekSeleniumTest.UnitTest1.Test_Navigate_To_About_Page() in /Users/Manju/Downloads/ManjuAutomationTestPackage/EnsekSeleniumTest/UnitTest1.cs:line 111
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+----- Inner Stack Trace -----
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.get_Displayed()
+   at EnsekSeleniumTest.UnitTest1.Test_Navigate_To_About_Page() in /Users/Manju/Downloads/ManjuAutomationTestPackage/EnsekSeleniumTest/UnitTest1.cs:line 102</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2dd76382-962e-42d8-a0af-73e3a35f8f1d" testId="144506c7-2d7b-de1b-68c1-f2d2c6934fd7" testName="EnsekSeleniumTest.UnitTest1.Test_Website_Title" computerName="Sivas-MacBook-Air" duration="00:00:02.7543891" startTime="2024-09-29T15:00:43.8544290+01:00" endTime="2024-09-29T15:00:43.8544290+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2dd76382-962e-42d8-a0af-73e3a35f8f1d" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="EnsekSeleniumTest.UnitTest1.Test_Navigate_To_About_Page" storage="/users/manju/downloads/manjuautomationtestpackage/ensekseleniumtest/bin/debug/net8.0/ensekseleniumtest.dll" id="e14486e1-c068-575a-3165-7e41a7f439bb">
+      <Execution id="6a7d05dc-f3b4-4e86-89ca-123d8257a77d" />
+      <TestMethod codeBase="/Users/Manju/Downloads/ManjuAutomationTestPackage/EnsekSeleniumTest/bin/Debug/net8.0/EnsekSeleniumTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="EnsekSeleniumTest.UnitTest1" name="Test_Navigate_To_About_Page" />
+    </UnitTest>
+    <UnitTest name="EnsekSeleniumTest.UnitTest1.Test_Website_Title" storage="/users/manju/downloads/manjuautomationtestpackage/ensekseleniumtest/bin/debug/net8.0/ensekseleniumtest.dll" id="144506c7-2d7b-de1b-68c1-f2d2c6934fd7">
+      <Execution id="2dd76382-962e-42d8-a0af-73e3a35f8f1d" />
+      <TestMethod codeBase="/Users/Manju/Downloads/ManjuAutomationTestPackage/EnsekSeleniumTest/bin/Debug/net8.0/EnsekSeleniumTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="EnsekSeleniumTest.UnitTest1" name="Test_Website_Title" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e14486e1-c068-575a-3165-7e41a7f439bb" executionId="6a7d05dc-f3b4-4e86-89ca-123d8257a77d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="144506c7-2d7b-de1b-68c1-f2d2c6934fd7" executionId="2dd76382-962e-42d8-a0af-73e3a35f8f1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 8.0.8)
+[xUnit.net 00:00:00.03]   Discovering: EnsekSeleniumTest
+[xUnit.net 00:00:00.04]   Discovered:  EnsekSeleniumTest
+[xUnit.net 00:00:00.04]   Starting:    EnsekSeleniumTest
+Starting ChromeDriver 129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420}) on port 58783
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 58783.
+9/29/2024 3:00:38 PM: Navigated to the home page.
+9/29/2024 3:00:38 PM: Navigated to the About page.
+9/29/2024 3:00:40 PM: Clicked 'Find out more about us »' button. User successfully redirected.
+9/29/2024 3:00:40 PM - ERROR: Stale element reference encountered. Retrying to find the element...
+9/29/2024 3:00:41 PM: Screenshot captured: /Users/Manju/Documents/EnsekSeleniumScreenshots/ErrorScreenshot_About.png
+9/29/2024 3:00:41 PM - Test Summary: Total Tests: 1, Passed: 0, Failed: 1
+[xUnit.net 00:00:09.03]       System.Exception : StaleElementReferenceException occurred
+[xUnit.net 00:00:09.03]       ---- OpenQA.Selenium.StaleElementReferenceException : stale element reference: stale element not found
+[xUnit.net 00:00:09.03]         (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+[xUnit.net 00:00:09.03]       Stack Trace:
+[xUnit.net 00:00:09.03]         /Users/Manju/Downloads/ManjuAutomationTestPackage/EnsekSeleniumTest/UnitTest1.cs(111,0): at EnsekSeleniumTest.UnitTest1.Test_Navigate_To_About_Page()
+[xUnit.net 00:00:09.03]            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+[xUnit.net 00:00:09.03]            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[xUnit.net 00:00:09.03]         ----- Inner Stack Trace -----
+[xUnit.net 00:00:09.03]            at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+[xUnit.net 00:00:09.03]            at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+[xUnit.net 00:00:09.03]            at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+[xUnit.net 00:00:09.03]            at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+[xUnit.net 00:00:09.03]            at OpenQA.Selenium.WebElement.get_Displayed()
+[xUnit.net 00:00:09.03]         /Users/Manju/Downloads/ManjuAutomationTestPackage/EnsekSeleniumTest/UnitTest1.cs(102,0): at EnsekSeleniumTest.UnitTest1.Test_Navigate_To_About_Page()
+Starting ChromeDriver 129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420}) on port 58932
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 58932.
+9/29/2024 3:00:43 PM: Navigated to the home page.
+9/29/2024 3:00:43 PM: Page title: ENSEK Energy Corp. - Candidate Test
+9/29/2024 3:00:43 PM: Title matches.
+9/29/2024 3:00:43 PM - Test Summary: Total Tests: 1, Passed: 1, Failed: 0
+[xUnit.net 00:00:11.77]   Finished:    EnsekSeleniumTest
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="Sivas-MacBook-Air" outcome="Error" timestamp="2024-09-29T15:00:41.1167540+01:00">
+        <Text>[xUnit.net 00:00:09.03]     EnsekSeleniumTest.UnitTest1.Test_Navigate_To_About_Page [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
